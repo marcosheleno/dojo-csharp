@@ -9,14 +9,14 @@ Teremos dois dominios nessa aplicação:
 Os contatos são entidade compostas por id e nome(brigatóriamente) e podem pertencer a grupos de contatos, ter muitos telefones e emails;
 Já salas de mensagem são compostas por id, nome e 1 contato que receberá as mensagens. Para cada mensagem preciso saber seu conteúdo e a data/hora do envio.
 
-d
+
 Lembre-se dos **principios SOLID** e que tudo deve ser **testável** e **indepentedente**
           
 Para hoje vamos precisar de:
 
-  * Criar a estrutura da entidade contato
-  * Criar a estrutura da entidade de salas de mensagem
-  * Manter o isolamento entre os dominios
+  * Criar a estrutura da entidade contato - OK
+  * Criar a estrutura da entidade de salas de mensagem - OK
+  * Manter o isolamento entre os dominios - OK
   * Criar testes para todas as classes
   * Criar serviço de leitura de contatos
   * Criar serviço de leitura de salas de mensagens

@@ -17,9 +17,5 @@ namespace Contact.Domain
             this.phones = phones;
             this.groups = groups;
         }
-
-        public Guid getId(){
-            return this.id;
-        }
     }
 }
