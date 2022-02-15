@@ -1,4 +1,4 @@
-namespace Contact.Domain.Messages
+namespace Chat.Domain.Messages
 {
     class Entity : BaseClass
     {

@@ -4,14 +4,15 @@ namespace Chat.Domain
     {
         private string name;
 
-        private Contact contact_id;
+        private Contacts.Entity contact;
         private Messages.Entity[] messages;
 
 
-        public Chat(Guid id)
+        public Chat(Guid id, Contacts.Entity contact, Messages.Entity[] messages)
         {
             this.id = id;
-       
+            this.contact = contact;
+            this.messages = messages;
         }
     }
 }
