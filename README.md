@@ -15,7 +15,7 @@ Lembre-se dos **principios SOLID** e que tudo deve ser **testável** e **indepen
 Para hoje vamos precisar de:
 
   * Criar a estrutura da entidade contato
-  * Criar a estrutura da entidade 
+  * Criar a estrutura da entidade de salas de mensagem
   * Manter o isolamento entre os dominios
   * Criar testes para todas as classes
   * Criar serviço de leitura de contatos
