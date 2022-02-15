@@ -1,16 +1,13 @@
 namespace Contact.Domain
 {
-    public class Contact : IContact
+    class Contact : BaseClass
     {
-        
-        int IContact.ID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        string IContact.Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        string IContact.Emails { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        int IContact.Telefones { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        private string name;
 
-        static void IContact() {
-            
-            
+        public Contact(Guid id, string name)
+        {
+            this.id = id;
+            this.name = name;
         }
     }
 }

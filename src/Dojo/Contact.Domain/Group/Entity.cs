@@ -1,0 +1,1 @@
+namespace Contact.Domain.Group
