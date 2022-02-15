@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Wwxa1FdwCwY/4x6oJ1xVJJjgXf2As84UrfHATFU6UoZ6X56vnmZd7IJAbQj6TsFhaGeB3ia60Ub7FvsQiB0rw==",
+  "dgSpecHash": "GEp4vxpncqh7eZsmZkPecvUv6VaflLjBOnfOAXrjr1YAhcBn/G2+fc4Y7+1flhcKRTydNV9189SddEutnuY/eQ==",
   "success": true,
-  "projectFilePath": "/home/marcos/Documents/IEBT/dojos/dojo-dotnet/src/Infrastructure/Persistance/Archive/Archive.csproj",
+  "projectFilePath": "C:\\GitHub\\dojo-csharp\\src\\Infrastructure\\Persistance\\Archive\\Archive.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

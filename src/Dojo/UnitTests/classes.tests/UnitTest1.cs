@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using Contact.Domain.Contact;
+using Contact.Domain.Email.Entity;
 
 namespace classes.tests;
 
@@ -9,9 +9,12 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Contact c = new Contact(1, name, emails, phones, groups);
-        c.id = 1;
+        //Moq.Mock<Email.Entity> emailMock = new Moq.Mock<Email.Entity>();
+        //emailMock.Setup();
+        Email.Entity e = new Email(1, "abominavel.homem.neves@familia.snow", "comercial");
 
-        Assert.AreEqual(30, Is.EqualTo(id));
+        Assert.AreEqual(1, e.id);
+        Assert.AreEqual("abominavel.homem.neves@familia.snow", e.email);
+        Assert.AreEqual("comercial", e.type);
     }
 }

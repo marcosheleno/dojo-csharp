@@ -11,5 +11,6 @@ namespace Contact.Domain.Email
             this.email = email;
             this.type = type;
         }
+
     }
 }

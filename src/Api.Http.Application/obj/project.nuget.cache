@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "ieF4qBATSJE/p9+GDAMO5XgxHYjcZoqza2O4B4Kq5jAxEzlC/U6tcQ9Hi9cqKuRhdVGjA/Cz/Vwm15fHBqLxPg==",
-  "success": true,
-  "projectFilePath": "/home/marcos/Documents/IEBT/dojos/dojo-dotnet/src/Api.Http.Application/application.csproj",
-  "expectedPackageFiles": [
-    "/home/marcos/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "/home/marcos/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/home/marcos/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "/home/marcos/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "/home/marcos/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/home/marcos/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "CvWW6K5NWXBhm7zEpoKF1SwMW3460DopeIhBHsaCEEd6VjiHA9p+mSPjnsg53rFr2WbrhCRuukaSwSMbvo2pZw==",
+  "success": false,
+  "projectFilePath": "C:\\GitHub\\dojo-csharp\\src\\Api.Http.Application\\application.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Swashbuckle.AspNetCore. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

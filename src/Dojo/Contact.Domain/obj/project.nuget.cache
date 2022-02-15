@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "FoO8tSs3ShtO/NcnF/joPTJbZieDvCwA/I4EbTsDborSFjvt74dzRz1uMYdnbXGx//IRjeOyXgQcC2F6UgqaVw==",
-  "success": true,
-  "projectFilePath": "/home/marcos/Documents/IEBT/dojos/dojo-dotnet/src/Dojo/Contact.Domain/ChatDomain.csproj",
+  "dgSpecHash": "r02hTLuKZ+OXgPcKUIom8iIirNLaN2VVRfYKMSgRyMtM/kQW1dgfoIzFAEaT/D23SJ1Vhe1ut+X+GhcFzLlKuQ==",
+  "success": false,
+  "projectFilePath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Domain\\ContactDomain.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote NUnit3TestAdapter. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
