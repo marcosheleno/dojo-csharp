@@ -9,7 +9,7 @@ Teremos dois dominios nessa aplicação:
 Os contatos são entidade compostas por id e nome(brigatóriamente) e podem pertencer a grupos de contatos, ter muitos telefones e emails;
 Já salas de mensagem são compostas por id, nome e 1 contato que receberá as mensagens. Para cada mensagem preciso saber seu conteúdo e a data/hora do envio.
 
-
+d
 Lembre-se dos **principios SOLID** e que tudo deve ser **testável** e **indepentedente**
           
 Para hoje vamos precisar de:
