@@ -1,17 +1,21 @@
-using static Contact.Domain.Email.Entity;
 namespace Contact.Domain
 {
-    class Contact : BaseClass
+  class Contact : BaseClass
     {
         private string name;
 
-        private Entity email;
+        private Email.Entity[]? emails;
+        private Phone.Entity[]? phones;
 
-        public Contact(Guid id, string name)
+        private Group.Entity[]? groups;
+
+        public Contact(Guid id, string name, Email.Entity[]? emails, Phone.Entity[]? phones, Group.Entity[]? groups)
         {
             this.id = id;
             this.name = name;
-            this.Email = new Entity();
+            this.emails = emails;
+            this.phones = phones;
+            this.groups = groups;
         }
     }
 }
