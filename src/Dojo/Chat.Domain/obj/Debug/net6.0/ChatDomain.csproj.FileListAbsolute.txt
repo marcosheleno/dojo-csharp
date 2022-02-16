@@ -1,0 +1,12 @@
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/bin/Debug/net6.0/ChatDomain.deps.json
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/bin/Debug/net6.0/ChatDomain.dll
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/bin/Debug/net6.0/ref/ChatDomain.dll
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/bin/Debug/net6.0/ChatDomain.pdb
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.csproj.AssemblyReference.cache
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.GeneratedMSBuildEditorConfig.editorconfig
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.AssemblyInfoInputs.cache
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.AssemblyInfo.cs
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.csproj.CoreCompileInputs.cache
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.dll
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/Debug/net6.0/ref/ChatDomain.dll
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.pdb

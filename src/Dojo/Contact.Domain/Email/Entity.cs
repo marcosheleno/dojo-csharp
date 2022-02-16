@@ -1,6 +1,6 @@
 namespace Contact.Domain.Email
 {
-    class Entity : BaseClass
+    public class Entity : BaseClass
     {
         private string email;
         private string type;

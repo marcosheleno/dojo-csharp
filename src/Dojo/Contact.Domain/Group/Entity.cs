@@ -1,6 +1,6 @@
 namespace Contact.Domain.Group
 {
-    class Entity : BaseClass
+    public class Entity : BaseClass
     {
         private string groupName;
 

@@ -1,0 +1,6 @@
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/bin/Debug/net6.0/CoverletSourceRootsMapping
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/obj/Debug/net6.0/classes.tests.csproj.AssemblyReference.cache
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/obj/Debug/net6.0/classes.tests.GeneratedMSBuildEditorConfig.editorconfig
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/obj/Debug/net6.0/classes.tests.AssemblyInfoInputs.cache
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/obj/Debug/net6.0/classes.tests.AssemblyInfo.cs
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/obj/Debug/net6.0/classes.tests.csproj.CoreCompileInputs.cache

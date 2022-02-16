@@ -1,6 +1,6 @@
 namespace Contact.Domain.Phone
 {
-    class Entity : BaseClass
+    public class Entity : BaseClass
     {
         private int phone;
         private int ddi;

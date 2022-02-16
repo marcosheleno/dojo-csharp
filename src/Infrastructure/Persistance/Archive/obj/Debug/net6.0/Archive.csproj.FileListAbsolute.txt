@@ -1,0 +1,12 @@
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/bin/Debug/net6.0/Archive.deps.json
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/bin/Debug/net6.0/Archive.dll
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/bin/Debug/net6.0/ref/Archive.dll
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/bin/Debug/net6.0/Archive.pdb
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.csproj.AssemblyReference.cache
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.GeneratedMSBuildEditorConfig.editorconfig
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.AssemblyInfoInputs.cache
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.AssemblyInfo.cs
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.csproj.CoreCompileInputs.cache
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.dll
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/ref/Archive.dll
+/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.pdb

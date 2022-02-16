@@ -1,18 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r02hTLuKZ+OXgPcKUIom8iIirNLaN2VVRfYKMSgRyMtM/kQW1dgfoIzFAEaT/D23SJ1Vhe1ut+X+GhcFzLlKuQ==",
-  "success": false,
-  "projectFilePath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Domain\\ContactDomain.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Não é possível encontrar o pacote NUnit3TestAdapter. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
-      "libraryId": "NUnit3TestAdapter",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "dgSpecHash": "AlfzwZsgxgKp4LyGuOJKV9OyBw5r3RrKYUTp6dBJLx3uBhXZS8ApgzbLez/XHZmSWcSXD92IrXkRKInrsnSFXg==",
+  "success": true,
+  "projectFilePath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
+  "expectedPackageFiles": [
+    "/home/luan/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
 }

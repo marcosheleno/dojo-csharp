@@ -1,6 +1,6 @@
 namespace Contact.Domain
 {
-    class BaseClass
+    public class BaseClass
     {
         protected Guid id;
     }
