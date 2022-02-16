@@ -1,4 +1,5 @@
 using System;
+using Moq;
 using NUnit.Framework;
 using NamespaceContact = Contact.Domain;
 using NamespaceEmail = Contact.Domain.Email;
@@ -11,6 +12,17 @@ namespace classes.tests;
 [TestFixture]
 public class Tests
 {
+    private Mock<NamespaceEmail.Entity> mockEmail;
+    private Mock<NamespaceGroup.Entity> mockGroup;
+    private Mock<NamespacePhone.Entity> mockPhone;
+
+    [SetUp]
+    public void Setup(){
+        mockEmail = new Mock<NamespaceEmail.Entity>();
+        mockGroup = new Mock<NamespaceGroup.Entity>();
+        mockPhone = new Mock<NamespacePhone.Entity>();
+    }
+
     [Test]
     public void TestEmail()
     {
@@ -47,12 +59,12 @@ public class Tests
     {
         Guid idContact = Guid.NewGuid();
 
-        Moq.Mock<Emails> mock = new Moq.Mock<Emails>();
-        mock.Setup(email.Email).Returns("jose.iebt@gmail.com");
-        NamespaceEmail.Entity email = new NamespaceEmail.Entity();
+        //mock.Setup(email.Email).Returns("jose.iebt@gmail.com");
+        NamespaceEmail.Entity[] emails = new NamespaceEmail.Entity(mockEmail.Object);
+        NamespaceEmail.Entity[] groups = new NamespaceEmail.Entity(mockGroup.Object);
+        NamespaceEmail.Entity[] phones = new NamespaceEmail.Entity(mockPhone.Object);
 
-
-        NamespaceContact.Entity contact = new NamespaceContact.Entity(idContact, "José", "jose.iebt@gmail.com", 999998888, "iebt");
+        NamespaceContact.Entity contact = new NamespaceContact.Entity(idContact, "José", emails, 999998888, "iebt");
 
         Assert.AreEqual(idContact, contact.Id);
         Assert.AreEqual(999988888, contact.Phone);
