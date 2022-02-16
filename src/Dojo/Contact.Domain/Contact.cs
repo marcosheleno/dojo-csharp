@@ -11,7 +11,7 @@ namespace Contact.Domain
 
         public Contact(Guid id, string name, Email.Entity[]? emails, Phone.Entity[]? phones, Group.Entity[]? groups)
         {
-            this.id = id;
+            this.Id = id;
             this.name = name;
             this.emails = emails;
             this.phones = phones;
