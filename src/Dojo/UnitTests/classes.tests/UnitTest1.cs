@@ -1,5 +1,6 @@
 using System;
 using NUnit.Framework;
+using NamespaceContact = Contact.Domain;
 using NamespaceEmail = Contact.Domain.Email;
 using NamespaceGroup = Contact.Domain.Group;
 using NamespacePhone = Contact.Domain.Phone;
@@ -39,5 +40,23 @@ public class Tests
         Assert.AreEqual(999988888, phone.Phone);
         Assert.AreEqual(55, phone.Ddi);
         Assert.AreEqual("Comercial", phone.Type);
+    }
+
+    [Test]
+    public void TestContacts()
+    {
+        Guid idContact = Guid.NewGuid();
+
+        Moq.Mock<Emails> mock = new Moq.Mock<Emails>();
+        mock.Setup(email.Email).Returns("jose.iebt@gmail.com");
+        NamespaceEmail.Entity email = new NamespaceEmail.Entity();
+
+
+        NamespaceContact.Entity contact = new NamespaceContact.Entity(idContact, "José", "jose.iebt@gmail.com", 999998888, "iebt");
+
+        Assert.AreEqual(idContact, contact.Id);
+        Assert.AreEqual(999988888, contact.Phone);
+        Assert.AreEqual(55, contact.Ddi);
+        Assert.AreEqual("Comercial", contact.Type);
     }
 }
