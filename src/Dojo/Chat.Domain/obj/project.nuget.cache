@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oz7PAGpirWZE+aksLcxHURIydGcca0J0lGIAZ7NjgTUQ+PreGHEoiL650IPhq4gZa274mMgemoRFNpSzc1ZAtA==",
+  "dgSpecHash": "jImlgpzcwBP+c2GkRQRxAzNyNeP1M3pYAkng6JzWEXPIe6f5Ng7Hah5ofKYv0uIINcFd6unoWLnXoQ4CVpEDMQ==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Chat.Domain\\ChatDomain.csproj",
+  "projectFilePath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Chat.Domain/ChatDomain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -2,9 +2,9 @@ namespace Contact.Domain.Phone
 {
     public class Entity : BaseClass
     {
-        private int _phone {get; set;}
-        private int _ddi {get; set;}
-        private string _type {get; set;}
+        private int _phone { get; set; }
+        private int _ddi { get; set; }
+        private string _type { get; set; }
 
         public Entity(Guid id, int phone, int ddi, string type)
         {
