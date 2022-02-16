@@ -17,8 +17,8 @@ public class Tests
         NamespaceEmail.Entity email = new NamespaceEmail.Entity(idEmail, "abominavel.homem.neves@familia.snow", "comercial");
 
         Assert.AreEqual(idEmail, email.Id);
-        Assert.AreEqual("abominavel.homem.neves@familia.snow", email.getEmail);
-        Assert.AreEqual("comercial", email.getTypeEmail);
+        Assert.AreEqual("abominavel.homem.neves@familia.snow", email.Email);
+        Assert.AreEqual("comercial", email.Type);
     }
 
     [Test]
@@ -26,18 +26,18 @@ public class Tests
     {
         NamespaceGroup.Entity group = new NamespaceGroup.Entity("nevesGroup");
 
-        Assert.AreEqual("nevesGroup", group.groupName);
+        Assert.AreEqual("nevesGroup", group.GroupName);
     }
 
     [Test]
     public void TestPhone()
     {
-        NamespacePhone.Entity phone = new NamespacePhone.Entity(1, 999988888, 55, Comercial);
+        Guid idPhone = Guid.NewGuid();
+        NamespacePhone.Entity phone = new NamespacePhone.Entity(idPhone, 999988888, 55, "Comercial");
 
-        Assert.AreEqual(1, phone.Id);
-        Assert.AreEqual(999988888, phone.phone);
-        Assert.AreEqual(55, phone.ddi);
-        Assert.AreEqual("Comercial", phone.type);
-
+        Assert.AreEqual(idPhone, phone.Id);
+        Assert.AreEqual(999988888, phone.Phone);
+        Assert.AreEqual(55, phone.Ddi);
+        Assert.AreEqual("Comercial", phone.Type);
     }
 }

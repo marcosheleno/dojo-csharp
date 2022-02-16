@@ -2,11 +2,17 @@ namespace Contact.Domain.Group
 {
     public class Entity : BaseClass
     {
-        private string groupName {get; set;}
+        private string _groupName {get; set;}
 
         public Entity(string groupName)
         {
-            this.groupName = groupName;
+            _groupName = groupName;
+        }
+
+        public string GroupName
+        {
+            get { return _groupName; }
+            set { _groupName = value; }
         }
     }
 }

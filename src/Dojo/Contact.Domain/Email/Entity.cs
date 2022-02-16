@@ -2,26 +2,26 @@ namespace Contact.Domain.Email
 {
     public class Entity : BaseClass
     {
-        private string _Email {get; set;}
-        private string _Type {get; set;}
+        private string _email {get; set;}
+        private string _type {get; set;}
 
         public Entity(Guid id, string email, string type)
         {
-            this.Id = id;
-            this.Email = email;
-            this.Type = type;
+            Id = id;
+            _email = email;
+            _type = type;
         }
 
-        public Email getEmail
+        public string Email
         {
-            get { return _Email; }
-            set { _Email = value; }
+            get { return _email; }
+            set { _email = value; }
         }
 
-        public Email getTypeEmail
+        public string Type
         {
-            get { return _Type; }
-            set { _Type = value; }
+            get { return _type; }
+            set { _type = value; }
         }
 
     }

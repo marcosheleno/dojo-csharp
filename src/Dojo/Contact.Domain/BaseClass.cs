@@ -7,7 +7,7 @@ namespace Contact.Domain
         public Guid Id
         {
             get { return _id; }
-            set { _id = Guid.NewGuid(); }
+            set { _id = value; }
         }
     }
 }

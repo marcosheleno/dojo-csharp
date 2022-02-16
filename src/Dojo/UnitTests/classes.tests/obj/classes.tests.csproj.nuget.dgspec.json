@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj": {}
+    "C:\\GitHub\\dojo-csharp\\src\\Dojo\\UnitTests\\classes.tests\\classes.tests.csproj": {}
   },
   "projects": {
-    "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj": {
+    "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Domain\\ContactDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
+        "projectUniqueName": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Domain\\ContactDomain.csproj",
         "projectName": "ContactDomain",
-        "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
-        "packagesPath": "/home/luan/.nuget/packages/",
-        "outputPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/obj/",
+        "projectPath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Domain\\ContactDomain.csproj",
+        "packagesPath": "C:\\Users\\Jean Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/luan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jean Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,34 +64,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj": {
+    "C:\\GitHub\\dojo-csharp\\src\\Dojo\\UnitTests\\classes.tests\\classes.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj",
+        "projectUniqueName": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\UnitTests\\classes.tests\\classes.tests.csproj",
         "projectName": "classes.tests",
-        "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj",
-        "packagesPath": "/home/luan/.nuget/packages/",
-        "outputPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/obj/",
+        "projectPath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\UnitTests\\classes.tests\\classes.tests.csproj",
+        "packagesPath": "C:\\Users\\Jean Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\UnitTests\\classes.tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/luan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jean Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj": {
-                "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj"
+              "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Domain\\ContactDomain.csproj": {
+                "projectPath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Domain\\ContactDomain.csproj"
               }
             }
           }
@@ -136,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
