@@ -1,41 +1,43 @@
+using System;
 using NUnit.Framework;
-using Contact.Domain.Email;
-using Contact.Domain.Group;
-using Contact.Domain.Phone;
+using NamespaceEmail = Contact.Domain.Email;
+using NamespaceGroup = Contact.Domain.Group;
+using NamespacePhone = Contact.Domain.Phone;
 
 
 namespace classes.tests;
 
-[TestClass]
+[TestFixture]
 public class Tests
 {
     [Test]
     public void TestEmail()
     {
-        Email.Entity e = new Email(1, "abominavel.homem.neves@familia.snow", "comercial");
+        Guid idEmail = Guid.NewGuid();
+        NamespaceEmail.Entity email = new NamespaceEmail.Entity(idEmail, "abominavel.homem.neves@familia.snow", "comercial");
 
-        Assert.AreEqual(1, e.id);
-        Assert.AreEqual("abominavel.homem.neves@familia.snow", e.email);
-        Assert.AreEqual("comercial", e.type);
+        Assert.AreEqual(idEmail, email.getId());
+        Assert.AreEqual("abominavel.homem.neves@familia.snow", email.email);
+        Assert.AreEqual("comercial", email.type);
     }
 
     [Test]
     public void TestGroup()
     {
-        Group.Entity g = new Group("nevesGroup");
+        NamespaceGroup.Entity group = new NamespaceGroup.Entity("nevesGroup");
 
-        Assert.AreEqual("nevesGroup", g.groupName);
+        Assert.AreEqual("nevesGroup", group.groupName);
     }
 
     [Test]
     public void TestPhone()
     {
-        Phone.Entity p = new Phone(1, 999988888, 55, Comercial);
+        NamespacePhone.Entity phone = new NamespacePhone.Entity(1, 999988888, 55, Comercial);
 
-        Assert.AreEqual(1, p.id);
-        Assert.AreEqual(999988888, p.phone);
-        Assert.AreEqual(55, p.ddi);
-        Assert.AreEqual("Comercial", p.type);
+        Assert.AreEqual(1, phone.id);
+        Assert.AreEqual(999988888, phone.phone);
+        Assert.AreEqual(55, phone.ddi);
+        Assert.AreEqual("Comercial", phone.type);
 
     }
 }

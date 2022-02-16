@@ -12,5 +12,7 @@ namespace Contact.Domain.Email
             this.type = type;
         }
 
+        
+
     }
 }
