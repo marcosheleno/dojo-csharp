@@ -3,13 +3,13 @@ using Messages = Chat.Domain.Messages;
 using Contacts = Chat.Domain.Contacts;
 namespace Chat.Domain;
 
-public class Chat : BaseClass
+public class Entity : BaseClass
 {
     public Contacts.Entity Contact {get; set;}
     public Messages.Collection Messages {get; set;}
 
 
-    public Chat(Guid id) 
+    public Entity(Guid id) 
     {
         Id = id;
     }

@@ -1,6 +1,8 @@
 using System;
 using NUnit.Framework;
-// using Message = Chat.Domain.Messages;
+using Chat.Domain;
+using Message = Chat.Domain.Messages;
+using Moq;
 namespace classes.tests;
 
 public class ChatTest
@@ -16,23 +18,22 @@ public class ChatTest
         Assert.AreEqual(idChat, chat.Id);
     }
 
-    /*[Test]
-    public void TestContactCanHaveEmails()
+    [Test]
+    public void TestContactCanMessages()
     {
-        Guid idContact = Guid.NewGuid();
-        string name = "Joao das Neves";
+        Guid idChat = Guid.NewGuid();
 
-        var emailMock = new Moq.Mock<Email.Entity>();
-        Email.Entity email = emailMock.Object;
+        var emailMock = new Moq.Mock<Message.Entity>();
+        Message.Entity email = emailMock.Object;
 
-        var collectionMock = new Moq.Mock<Email.Collection>();
+        var collectionMock = new Moq.Mock<Message.Collection>();
         collectionMock.Setup(c => c.Add(email));
-        Email.Collection collection = collectionMock.Object;
+        Message.Collection collection = collectionMock.Object;
 
         Entity contact = new Entity(idContact, name);
         contact.Emails = collection;
         contact.addEmail(email);
 
         Assert.AreEqual(collection, contact.Emails);
-    }*/
+    }
 }
