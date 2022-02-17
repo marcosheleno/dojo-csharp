@@ -33,3 +33,4 @@ C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.csproj.Co
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.dll
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ref\ChatDomain.dll
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.pdb
+C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.csproj.AssemblyReference.cache

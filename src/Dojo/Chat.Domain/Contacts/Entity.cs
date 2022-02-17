@@ -1,13 +1,12 @@
-namespace Chat.Domain.Contacts
+namespace Chat.Domain.Contacts;
+
+class Entity : BaseClass
 {
-    class Entity : BaseClass
-    {
         public string Name {get; set;}
 
-        public Entity(Guid id, string name)
-        {
-            Id = id;
-            _name = name;
-        }
+    public Entity(Guid id, string name)
+    {
+        Id = id;
+        Name = name;
     }
 }

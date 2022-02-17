@@ -33,3 +33,4 @@ C:\GitHub\dojo-csharp\src\Infrastructure\Persistance\Archive\obj\Debug\net6.0\Ar
 C:\GitHub\dojo-csharp\src\Infrastructure\Persistance\Archive\obj\Debug\net6.0\Archive.dll
 C:\GitHub\dojo-csharp\src\Infrastructure\Persistance\Archive\obj\Debug\net6.0\ref\Archive.dll
 C:\GitHub\dojo-csharp\src\Infrastructure\Persistance\Archive\obj\Debug\net6.0\Archive.pdb
+C:\GitHub\dojo-csharp\src\Infrastructure\Persistance\Archive\obj\Debug\net6.0\Archive.csproj.AssemblyReference.cache

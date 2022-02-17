@@ -18,9 +18,9 @@ class Chat : BaseClass
     {   
         Guid idMessage = Guid.NewGuid();
         DateTime data_time = DateTime.Now;
-        Messages.Entity chatMessage = new Messages.Entity(idMessage, date_time, message);
+        Messages.Entity chatMessage = new Messages.Entity(idMessage, data_time, message);
 
-        Messages.Add(message);
+        Messages.Add(chatMessage);
     }
 }
 

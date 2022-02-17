@@ -882,6 +882,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ChatDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ChatDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatDomain.dll": {}
+        }
       }
     }
   },
@@ -3844,10 +3854,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ChatDomain/1.0.0": {
+      "type": "project",
+      "path": "../../Chat.Domain/ChatDomain.csproj",
+      "msbuildProject": "../../Chat.Domain/ChatDomain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ChatDomain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.0.0",
@@ -3855,30 +3871,41 @@
     ]
   },
   "packageFolders": {
-    "/home/luan/.nuget/packages/": {}
+    "C:\\Users\\Jean Santos\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/ChatTests/classes.tests/classes.tests.csproj",
+      "projectUniqueName": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\ChatTests\\classes.tests\\classes.tests.csproj",
       "projectName": "classes.tests",
-      "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/ChatTests/classes.tests/classes.tests.csproj",
-      "packagesPath": "/home/luan/.nuget/packages/",
-      "outputPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/ChatTests/classes.tests/obj/",
+      "projectPath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\ChatTests\\classes.tests\\classes.tests.csproj",
+      "packagesPath": "C:\\Users\\Jean Santos\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\ChatTests\\classes.tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/luan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Jean Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Chat.Domain\\ChatDomain.csproj": {
+              "projectPath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Chat.Domain\\ChatDomain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3923,7 +3950,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

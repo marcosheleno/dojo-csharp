@@ -17,9 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistance", "Persistance"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archive", "Infrastructure\Persistance\Archive\Archive.csproj", "{5CF87232-8E56-4495-B74B-5FD054DA7C2F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{96041CCF-6874-400D-A5D3-E63427AB17A0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactTests", "UnitTests", "{96041CCF-6874-400D-A5D3-E63427AB17A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes.tests", "Dojo\UnitTests\classes.tests\classes.tests.csproj", "{8D04D106-F173-4EEA-AE16-53DA302DCCF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes.tests", "Dojo\ContactTests\classes.tests\classes.tests.csproj", "{8D04D106-F173-4EEA-AE16-53DA302DCCF7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChatTests", "ChatTests", "{B4518826-96A1-422C-B009-5C5929AF8A11}"
 EndProject
