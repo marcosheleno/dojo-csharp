@@ -2,8 +2,12 @@ namespace Chat.Domain.Contacts;
 
 public class Entity : BaseClass
 {
-        public string Name {get; set;}
+    public string Name {get; set;}
 
+    public Entity()
+    {
+        
+    }
     public Entity(Guid id, string name)
     {
         Id = id;

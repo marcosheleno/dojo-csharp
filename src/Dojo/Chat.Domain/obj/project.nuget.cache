@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "t/4GTwB4Q3F2A2/G5qmA+ehN9o1P0IVErrpbJ0hV1id/cFF8Txr8/0w62udkf76aNMkwyGJ6wVcfeUSmHF2ckQ==",
+  "dgSpecHash": "9nhk4qWYRoJd6m7DkHaBks+Kou5VCLxVg4Px/7pKZ05EJO6RlOI/Cjrlela7qJUDaHSN7vpLfEvkB0hQPcxNgA==",
   "success": true,
-  "projectFilePath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/ChatDomain.csproj",
+  "projectFilePath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Chat.Domain\\ChatDomain.csproj",
   "expectedPackageFiles": [
-    "/home/luan/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512"
+    "C:\\Users\\Jean Santos\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512"
   ],
   "logs": []
 }

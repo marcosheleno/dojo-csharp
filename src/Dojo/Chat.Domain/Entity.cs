@@ -9,9 +9,10 @@ public class Entity : BaseClass
     public Messages.Collection Messages {get; set;}
 
 
-    public Entity(Guid id) 
+    public Entity(Guid id, Contacts.Entity contact) 
     {
         Id = id;
+        Contact = contact;
     }
 
     public void sendMessages(string message)
