@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jImlgpzcwBP+c2GkRQRxAzNyNeP1M3pYAkng6JzWEXPIe6f5Ng7Hah5ofKYv0uIINcFd6unoWLnXoQ4CVpEDMQ==",
+  "dgSpecHash": "v+FA6O3VQT94Zes/PcNQlOH6cJDISRbKAal3Gul+d1PBO9QJY/UqD76fDBoss3W99IuprQ34YZ5VTRRCwKdtLQ==",
   "success": true,
-  "projectFilePath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Chat.Domain/ChatDomain.csproj",
+  "projectFilePath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/ChatDomain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

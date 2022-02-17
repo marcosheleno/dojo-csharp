@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj": {}
+    "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj": {}
   },
   "projects": {
-    "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj": {
+    "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
+        "projectUniqueName": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
         "projectName": "ContactDomain",
-        "projectPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
-        "packagesPath": "/home/marcos/.nuget/packages/",
-        "outputPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Contact.Domain/obj/",
+        "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
+        "packagesPath": "/home/luan/.nuget/packages/",
+        "outputPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/marcos/.nuget/NuGet/NuGet.Config"
+          "/home/luan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -62,17 +62,17 @@
         }
       }
     },
-    "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj": {
+    "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj",
+        "projectUniqueName": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj",
         "projectName": "classes.tests",
-        "projectPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj",
-        "packagesPath": "/home/marcos/.nuget/packages/",
-        "outputPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/UnitTests/classes.tests/obj/",
+        "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/classes.tests.csproj",
+        "packagesPath": "/home/luan/.nuget/packages/",
+        "outputPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/UnitTests/classes.tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/marcos/.nuget/NuGet/NuGet.Config"
+          "/home/luan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -84,8 +84,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj": {
-                "projectPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj"
+              "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj": {
+                "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj"
               }
             }
           }

@@ -4,6 +4,12 @@ namespace Contact.Domain.Group
     {
         private string _groupName {get; set;}
 
+
+        public Entity()
+        {
+        
+        }
+        
         public Entity(string groupName)
         {
             _groupName = groupName;
