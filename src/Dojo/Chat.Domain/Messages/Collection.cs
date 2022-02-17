@@ -8,11 +8,11 @@ public class Collection
 
     public Collection()
     {
-        this._messages = new ObjectModel.Collection<Entity>();
+        _messages = new ObjectModel.Collection<Entity>();
     }
 
     public virtual void Add(Entity entity)
     {
-        this._messages.Add(entity);
+        _messages.Add(entity);
     }
 }
