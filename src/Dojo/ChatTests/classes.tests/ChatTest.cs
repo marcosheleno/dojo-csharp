@@ -1,8 +1,6 @@
 using System;
 using NUnit.Framework;
-using Chat.Domain;
 using Message = Chat.Domain.Messages;
-using Moq;
 namespace classes.tests;
 
 public class ChatTest
@@ -23,17 +21,17 @@ public class ChatTest
     {
         Guid idChat = Guid.NewGuid();
 
-        var emailMock = new Moq.Mock<Message.Entity>();
-        Message.Entity email = emailMock.Object;
+        var messageMock = new Moq.Mock<Message.Entity>();
+        Message.Entity message = messageMock.Object;
 
         var collectionMock = new Moq.Mock<Message.Collection>();
-        collectionMock.Setup(c => c.Add(email));
+        collectionMock.Setup(c => c.Add(message));
         Message.Collection collection = collectionMock.Object;
 
-        Entity contact = new Entity(idContact, name);
-        contact.Emails = collection;
-        contact.addEmail(email);
+        Entity chat = new Entity(idChat);
+        chat.Messages = collection;
+        chat.sendMessages(message);
 
-        Assert.AreEqual(collection, contact.Emails);
+        Assert.AreEqual(collection, chat.Messages);
     }
 }

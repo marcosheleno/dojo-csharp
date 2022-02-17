@@ -10,34 +10,16 @@ public class Entity : BaseClass
 {
     public string Name {get; set;}
 
-    private Email.Collection _emails;
+    public Email.Collection Emails {get; set;}
 
-    private Group.Collection _groups;
+    public Group.Collection Groups {get; set;}
 
-    private Phone.Collection _phones;
+    public Phone.Collection Phones {get; set;}
 
     public Entity(Guid id, string name)
     {
-        this.Id = id;
-        this.Name = name;
-    }
-
-    public Email.Collection Emails
-    {
-        set { _emails = value; }
-        get { return _emails; }
-    }
-
-    public Group.Collection Groups
-    {
-        set { _groups = value; }
-        get { return _groups; }
-    }
-
-    public Phone.Collection Phones
-    {
-        set { _phones = value; }
-        get { return _phones; }
+        Id = id;
+        Name = name;
     }
 
     public void addEmail(Email.Entity email)
