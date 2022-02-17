@@ -1,8 +1,6 @@
 using System;
-using Moq;
 using NUnit.Framework;
-using Chat.Domain;
-using Message = Chat.Domain.Messages;
+// using Message = Chat.Domain.Messages;
 namespace classes.tests;
 
 public class ChatTest

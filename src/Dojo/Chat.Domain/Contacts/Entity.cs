@@ -1,6 +1,6 @@
 namespace Chat.Domain.Contacts;
 
-class Entity : BaseClass
+public class Entity : BaseClass
 {
         public string Name {get; set;}
 
