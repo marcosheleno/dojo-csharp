@@ -12,9 +12,9 @@ namespace Chat.Domain.Messages
 
         public Entity(Guid id, string date_time, string type)
         {
-            this.id = id;
-            this._date_time = date_time;
-            this._type = type;
+            Id = id;
+            _date_time = date_time;
+            _type = type;
         }
 
         public string Data_Time

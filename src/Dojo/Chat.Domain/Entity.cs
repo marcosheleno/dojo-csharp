@@ -1,17 +1,28 @@
+using Messages = Chat.Domain.Messages;
+using Contacts = Chat.Domain.Contacts;
 namespace Chat.Domain;
 
+
+class Chat : BaseClass
 {
-  class Chat : BaseClass
+    public Contacts.Entity Contact {get; set;}
+    private Messages.Collection _messages;
+
+
+    public Chat(Guid id) 
     {
-        private Contacts.Entity _contact;
-        private Messages.Collection _messages;
+        Id = id;
+    }
 
+    public Messages.Collection Messages
+    {
+        set { _messages = value; }
+        get { return _messages; }
+    }
 
-        public Chat(Guid id, Contacts.Entity contact, Messages.Entity[] messages) 
-        {
-            Id = id;
-            _contact = contact;
-            _messages = messages;
-        }
+    public void addMessages(Messages.Entity message)
+    {
+        Messages.Add(message);
     }
 }
+

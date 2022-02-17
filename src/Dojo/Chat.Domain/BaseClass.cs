@@ -4,7 +4,7 @@ namespace Chat.Domain
     {
         protected Guid _id;
 
-         public Guid Id
+        public Guid Id
         {
             get { return _id; }
             set { _id = value; }

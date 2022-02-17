@@ -8,7 +8,7 @@ namespace Contact.Domain;
 
 public class Entity : BaseClass
 {
-    private string _name;
+    public string Name {get; set;}
 
     private Email.Collection _emails;
 
@@ -20,12 +20,6 @@ public class Entity : BaseClass
     {
         this.Id = id;
         this.Name = name;
-    }
-
-    public string Name
-    {
-        get { return _name; }
-        set { _name = value; }
     }
 
     public Email.Collection Emails
