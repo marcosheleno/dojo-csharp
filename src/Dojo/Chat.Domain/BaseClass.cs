@@ -1,7 +1,13 @@
 namespace Chat.Domain
 {
-    class BaseClass
+    public class BaseClass
     {
-        protected Guid id;
+        protected Guid _id;
+
+         public Guid Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
     }
 }
