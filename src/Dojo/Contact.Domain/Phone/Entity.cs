@@ -6,6 +6,11 @@ namespace Contact.Domain.Phone
         private int _ddi { get; set; }
         private string _type { get; set; }
 
+        public Entity()
+        {
+
+        }
+
         public Entity(Guid id, int phone, int ddi, string type)
         {
             this.Id = id;

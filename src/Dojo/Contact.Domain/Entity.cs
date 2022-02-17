@@ -2,6 +2,7 @@ using System;
 using System.Collections.ObjectModel;
 using Email = Contact.Domain.Email;
 using Group = Contact.Domain.Group;
+using Phone = Contact.Domain.Phone;
 
 namespace Contact.Domain;
 
@@ -9,15 +10,23 @@ public class Entity : BaseClass
 {
     private string _name;
 
+    private Email.Collection _emails;
+
+    private Group.Collection _groups;
+
+    private Phone.Collection _phones;
+
+    public Entity(Guid id, string name)
+    {
+        this.Id = id;
+        this.Name = name;
+    }
+
     public string Name
     {
         get { return _name; }
         set { _name = value; }
     }
-
-    private Email.Collection _emails;
-    private Group.Collection _groups;
-
 
     public Email.Collection Emails
     {
@@ -25,16 +34,16 @@ public class Entity : BaseClass
         get { return _emails; }
     }
 
-     public Group.Collection Groups
+    public Group.Collection Groups
     {
         set { _groups = value; }
         get { return _groups; }
     }
 
-    public Entity(Guid id, string name)
+    public Phone.Collection Phones
     {
-        this.Id = id;
-        this.Name = name;
+        set { _phones = value; }
+        get { return _phones; }
     }
 
     public void addEmail(Email.Entity email)
@@ -45,5 +54,10 @@ public class Entity : BaseClass
     public void addGroup(Group.Entity group)
     {
         this.Groups.Add(group);
+    }
+
+    public void addPhone(Phone.Entity phone)
+    {
+        this.Phones.Add(phone);
     }
 }

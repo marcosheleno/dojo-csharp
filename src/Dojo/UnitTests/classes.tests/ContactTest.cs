@@ -1,6 +1,7 @@
 using Contact.Domain;
 using Email = Contact.Domain.Email;
 using Group = Contact.Domain.Group;
+using Phone = Contact.Domain.Phone;
 using System;
 using Moq;
 using NUnit.Framework;
@@ -61,5 +62,25 @@ public class ContactTest
         contact.addGroup(group);
 
         Assert.AreEqual(collection, contact.Groups);
+    }
+
+    [Test]
+    public void TestContactCanHavePhones()
+    {
+        Guid idContact = Guid.NewGuid();
+        string name = "Joao das Neves";
+
+        var phoneMock = new Moq.Mock<Phone.Entity>();
+        Phone.Entity phone = phoneMock.Object;
+
+        var collectionMock = new Moq.Mock<Phone.Collection>();
+        collectionMock.Setup(c => c.Add(phone));
+        Phone.Collection collection = collectionMock.Object;
+
+        Entity contact = new Entity(idContact, name);
+        contact.Phones = collection;
+        contact.addPhone(phone);
+
+        Assert.AreEqual(collection, contact.Phones);
     }
 }
