@@ -13,5 +13,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Contact.Domain\ContactDomain.csproj" />
+    <ProjectReference Include="..\..\Contact.Infrastructure\Contact.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\Infrastructure\Persistance\Archive\Archive.csproj" />
   </ItemGroup>
 </Project>

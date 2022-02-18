@@ -515,3 +515,7 @@ C:\GitHub\dojo-csharp\src\Dojo\ContactTests\classes.tests\obj\Debug\net6.0\ref\c
 C:\GitHub\dojo-csharp\src\Dojo\ContactTests\classes.tests\obj\Debug\net6.0\classes.tests.pdb
 C:\GitHub\dojo-csharp\src\Dojo\ContactTests\classes.tests\obj\Debug\net6.0\classes.tests.genruntimeconfig.cache
 C:\GitHub\dojo-csharp\src\Dojo\ContactTests\classes.tests\obj\Debug\net6.0\refint\classes.tests.dll
+C:\GitHub\dojo-csharp\src\Dojo\ContactTests\classes.tests\bin\Debug\net6.0\Archive.dll
+C:\GitHub\dojo-csharp\src\Dojo\ContactTests\classes.tests\bin\Debug\net6.0\Contact.Infrastructure.dll
+C:\GitHub\dojo-csharp\src\Dojo\ContactTests\classes.tests\bin\Debug\net6.0\Contact.Infrastructure.pdb
+C:\GitHub\dojo-csharp\src\Dojo\ContactTests\classes.tests\bin\Debug\net6.0\Archive.pdb

@@ -7,33 +7,34 @@ namespace Contact.Infrastructure;
 public class Repository : IRepository
 {
 
-    
-    public Repository()
+    public JsonReader JsonReader { get; set; }
+    public Repository(JsonReader jsonReader)
     {
-
+        JsonReader = jsonReader;
     }
 
     public Entity[] getAll()
     {
-        JsonReader jsonReader = new JsonReader();
-        JObject repoJson = jsonReader.Json;
+        // JsonReader = new JsonReader();
+        JObject repoJson = JsonReader.read("");
 
-        Entity[] contacts;
-        for (int i = 0; i < repoJson.Lenght; i++)
-            {
-                Guid id =  Guid.NewGuid();
-                Entity contact = Entity(id, repoJson[i].name);
-                if(repoJson[i].email){
-                    contact.addEmail(repoJson[i].email);   
-                }
-                if(repoJson[i].group){
-                    contact.addEmail(repoJson[i].group);   
-                }
-                if(repoJson[i].phones){
-                    contact.addEmail(repoJson[i].phones);   
-                }
-                contacts[i] = contact;
-            }
-        
+        // Entity[] contacts;
+        // for (int i = 0; i < repoJson.Lenght; i++)
+        //     {
+        //         Guid id =  Guid.NewGuid();
+        //         Entity contact = Entity(id, repoJson[i].name);
+        //         if(repoJson[i].email){
+        //             contact.addEmail(repoJson[i].email);   
+        //         }
+        //         if(repoJson[i].group){
+        //             contact.addEmail(repoJson[i].group);   
+        //         }
+        //         if(repoJson[i].phones){
+        //             contact.addEmail(repoJson[i].phones);   
+        //         }
+        //         contacts[i] = contact;
+        //     }
+        Entity[] myArray = new Entity[]{};
+        return myArray;
     }
 }
