@@ -1,17 +1,13 @@
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.IO;
+using Newtonsoft.Json.Linq;
+
 namespace Infrastructure.Persistance.Archive;
 
 public class JsonReader
 {
-    JsonSerializer serializer = new JsonSerializer();
-
     public JObject Json { get; set; }
 
     public JsonReader(){
-        string Json = @"[
+        string JsonFile = @"[
                             {
                                 'id': 10,
                                 'name': 'João das Neves',
@@ -61,7 +57,7 @@ public class JsonReader
                                 ]
                             }
                         ]";
-        JObject jObject = jObject.parse(Json);
-        Json = jObject;
+        JObject jObject = JObject.Parse(JsonFile);
+        JObject Json = jObject;
     }
 }

@@ -17,6 +17,19 @@
           "build/netcoreapp2.1/_._": {}
         }
       },
+      "Archive/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Archive.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Archive.dll": {}
+        }
+      },
       "ContactDomain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -85,6 +98,11 @@
         "nunit3testadapter.nuspec"
       ]
     },
+    "Archive/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/Persistance/Archive/Archive.csproj",
+      "msbuildProject": "../../Infrastructure/Persistance/Archive/Archive.csproj"
+    },
     "ContactDomain/1.0.0": {
       "type": "project",
       "path": "../Contact.Domain/ContactDomain.csproj",
@@ -93,6 +111,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Archive >= 1.0.0",
       "ContactDomain >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
@@ -124,6 +143,9 @@
           "projectReferences": {
             "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj": {
               "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj"
+            },
+            "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj": {
+              "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj"
             }
           }
         }
