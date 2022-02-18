@@ -36,7 +36,6 @@ C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\bin\Debug\net6.0\nunit.engine.core.dl
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\bin\Debug\net6.0\testcentric.engine.metadata.dll
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\bin\Debug\net6.0\ChatDomain.deps.json
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\bin\Debug\net6.0\ChatDomain.dll
-C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\bin\Debug\net6.0\ref\ChatDomain.dll
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\bin\Debug\net6.0\ChatDomain.pdb
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.GeneratedMSBuildEditorConfig.editorconfig
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.AssemblyInfoInputs.cache
@@ -46,3 +45,4 @@ C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.dll
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ref\ChatDomain.dll
 C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.pdb
 C:\GitHub\dojo-csharp\src\dojo\Chat.Domain\obj\Debug\net6.0\ChatDomain.csproj.AssemblyReference.cache
+C:\GitHub\dojo-csharp\src\Dojo\Chat.Domain\obj\Debug\net6.0\refint\ChatDomain.dll

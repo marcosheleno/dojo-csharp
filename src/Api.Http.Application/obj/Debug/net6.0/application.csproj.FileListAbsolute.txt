@@ -58,7 +58,6 @@ C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\application.exe
 C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\application.deps.json
 C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\application.runtimeconfig.json
 C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\application.dll
-C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\ref\application.dll
 C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\application.pdb
 C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -79,3 +78,4 @@ C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.dll
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\ref\application.dll
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.pdb
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.genruntimeconfig.cache
+C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\refint\application.dll
