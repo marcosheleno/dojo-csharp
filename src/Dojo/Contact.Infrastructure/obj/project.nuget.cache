@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xbVJG0iCbLp3Tx2Q3IvewZKeCYj/t0c/HpT9/VENHpUhdnCzuNPrdJj9XJvC1LD8uAxRpNcq2ykjWOLN+0yRXQ==",
+  "dgSpecHash": "WwVRRIxePVKkmID7r9XsV/bVMUQ/Hd+DsfFdHTZqW8rhkHULdvimsxBHfWZJ1Cut9YMwdPs/gpFKl8tJIXyDQg==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\dojo-csharp\\src\\Dojo\\Contact.Infrastructure\\Contact.Infrastructure.csproj",
+  "projectFilePath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Infrastructure/Contact.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jean Santos\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Jean Santos\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512"
+    "/home/luan/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/luan/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512"
   ],
   "logs": []
 }

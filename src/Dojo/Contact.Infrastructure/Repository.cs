@@ -18,8 +18,22 @@ public class Repository : IRepository
         JsonReader jsonReader = new JsonReader();
         JObject repoJson = jsonReader.Json;
 
-        System.Console.WriteLine(repoJson);
-
-        return getAll();
+        Entity[] contacts;
+        for (int i = 0; i < repoJson.Lenght; i++)
+            {
+                Guid id =  Guid.NewGuid();
+                Entity contact = Entity(id, repoJson[i].name);
+                if(repoJson[i].email){
+                    contact.addEmail(repoJson[i].email);   
+                }
+                if(repoJson[i].group){
+                    contact.addEmail(repoJson[i].group);   
+                }
+                if(repoJson[i].phones){
+                    contact.addEmail(repoJson[i].phones);   
+                }
+                contacts[i] = contact;
+            }
+        
     }
 }
