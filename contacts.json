@@ -1,49 +1,49 @@
 [
     {
-        'id': 10,
-        'name': 'João das Neves',
-        'group': [
-            'familia neves'
+        "id": 10,
+        "name": "João das Neves",
+        "group": [
+            "familia neves"
         ],
-        'phones': [
+        "phones": [
             {
-                'phone': 456465456,
-                'ddi': 55,
-                'type': 'residencial'
+                "phone": 456465456,
+                "ddi": 55,
+                "type": "residencial"
             }
         ]
     },
     {
-        'id': 15,
-        'name': 'Branc de Neves',
-        'group': [
-            'familia neves'
+        "id": 15,
+        "name": "Branc de Neves",
+        "group": [
+            "familia neves"
         ],
-        'phones': [
+        "phones": [
             {
-                'phone': 56498412398,
-                'ddi': 1,
-                'type': 'celular'
+                "phone": 56498412398,
+                "ddi": 1,
+                "type": "celular"
             }
         ]
     },
     {
-        'id': 5,
-        'name': 'Abominável Homem das Neves',
-        'group': [
-            'familia neves'
+        "id": 5,
+        "name": "Abominável Homem das Neves",
+        "group": [
+            "familia neves"
         ],
-        'emails': [
+        "emails": [
             {
-                'email': 'abominavel.homem.neves@familia.snow',
-                'type': 'comercial'
+                "email": "abominavel.homem.neves@familia.snow",
+                "type": "comercial"
             }
         ],
-        'phones': [
+        "phones": [
             {
-                'phone': 54516885,
-                'ddi': 55,
-                'type': 'fax'
+                "phone": 54516885,
+                "ddi": 55,
+                "type": "fax"
             }
         ]
     }
