@@ -4,13 +4,14 @@ namespace Contact.Infrastructure;
 public class Repository : IRepository
 {
 
-  public Repository()
-  {
-  
-  }
+    
+    public Repository()
+    {
 
-  public Entity[] getAll()
-  {
-    return getAll();
-  }
+    }
+
+    public Entity[] getAll()
+    {
+
+    }
 }
