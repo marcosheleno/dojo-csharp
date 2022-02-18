@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f0g3J57QtlmVyTyCSnicEfW+ufVsFq8z03b2p/TQSJak6nvJP8tIWQHwlkm26LyLbBxyONArwWZmLH+HgLzuBA==",
+  "dgSpecHash": "tDZJA0dsMogAJcGp/2qaXqEn7f2QKgO4UhC1vHZB1qb6z0Fiz+zuwaOWLizQijMJm8n7LYKZ/xYinyJUMjXKkQ==",
   "success": true,
   "projectFilePath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/luan/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

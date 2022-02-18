@@ -11,6 +11,6 @@ public class Repository : IRepository
 
   public Entity[] getAll()
   {
-    
+    return getAll();
   }
 }
