@@ -1,1 +1,15 @@
 .vs/
+src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.assets.cache
+src/Dojo/Chat.Domain/obj/Debug/net6.0/ChatDomain.GeneratedMSBuildEditorConfig.editorconfig
+src/Dojo/Contact.Domain/obj/Debug/net6.0/ContactDomain.assets.cache
+src/Dojo/Contact.Domain/obj/Debug/net6.0/ContactDomain.GeneratedMSBuildEditorConfig.editorconfig
+src/Dojo/Contact.Infrastructure/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+src/Dojo/Contact.Infrastructure/obj/Debug/net6.0/Contact.Infrastructure.AssemblyInfo.cs
+src/Dojo/Contact.Infrastructure/obj/Debug/net6.0/Contact.Infrastructure.AssemblyInfoInputs.cache
+src/Dojo/Contact.Infrastructure/obj/Debug/net6.0/Contact.Infrastructure.assets.cache
+src/Dojo/Contact.Infrastructure/obj/Debug/net6.0/Contact.Infrastructure.csproj.AssemblyReference.cache
+src/Dojo/Contact.Infrastructure/obj/Debug/net6.0/Contact.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+src/Dojo/Contact.Infrastructure/obj/Debug/net6.0/Contact.Infrastructure.GlobalUsings.g.cs
+src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.assets.cache
+src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.csproj.AssemblyReference.cache
+src/Infrastructure/Persistance/Archive/obj/Debug/net6.0/Archive.GeneratedMSBuildEditorConfig.editorconfig
