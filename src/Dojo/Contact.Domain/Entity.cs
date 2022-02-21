@@ -21,6 +21,8 @@ public class Entity : BaseClass
         Id = id;
         Name = name;
         Groups = new Group.Collection();
+        Phones = new Phone.Collection();
+
     }
 
     public void addEmail(Email.Entity email)

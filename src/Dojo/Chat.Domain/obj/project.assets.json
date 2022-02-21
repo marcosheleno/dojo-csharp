@@ -43,19 +43,19 @@
     ]
   },
   "packageFolders": {
-    "/home/marcos/.nuget/packages/": {}
+    "/home/luan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Chat.Domain/ChatDomain.csproj",
+      "projectUniqueName": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/ChatDomain.csproj",
       "projectName": "ChatDomain",
-      "projectPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Chat.Domain/ChatDomain.csproj",
-      "packagesPath": "/home/marcos/.nuget/packages/",
-      "outputPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Chat.Domain/obj/",
+      "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/ChatDomain.csproj",
+      "packagesPath": "/home/luan/.nuget/packages/",
+      "outputPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Chat.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/marcos/.nuget/NuGet/NuGet.Config"
+        "/home/luan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -99,7 +99,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

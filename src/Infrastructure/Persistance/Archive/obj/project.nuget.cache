@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tKq+OUQGBxn4uBoycTGDGZpmzEb7UBMOBxIb55xOWuR4iQpem3hu/xfUJ4JfZ1helHIKcl6yXUEZuIGn9/QBdQ==",
+  "dgSpecHash": "tDZJA0dsMogAJcGp/2qaXqEn7f2QKgO4UhC1vHZB1qb6z0Fiz+zuwaOWLizQijMJm8n7LYKZ/xYinyJUMjXKkQ==",
   "success": true,
-  "projectFilePath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj",
+  "projectFilePath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj",
   "expectedPackageFiles": [
-    "/home/marcos/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+    "/home/luan/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using Contact.Domain;
 using Group = Contact.Domain.Group;
+using Phone = Contact.Domain.Phone;
 using Contact.Domain.Contracts;
 using System.Collections.Generic;
 using Archive = Infrastructure.Persistance.Archive;
@@ -53,6 +54,19 @@ public class Repository : IRepository
         foreach (var groupItem in groups)
         {
             entity.addGroup(new Group.Entity(groupItem.ToString()));
+        }
+    }
+
+    private void attachPhones(Entity entity, dynamic phones)
+    {
+        if (phones == null)
+        {
+            return;
+        }
+
+        foreach (var phoneItem in phones)
+        {
+            entity.addPhone(new Phone.Entity(phoneItem.id.ToString(), phoneItem.phone.ToString(), phoneItem.ddi.ToString(), phoneItem.type.ToString()));
         }
     }
 }

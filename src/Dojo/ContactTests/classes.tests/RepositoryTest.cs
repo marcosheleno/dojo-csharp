@@ -64,7 +64,12 @@ public class RepositoryTest
     [Test]
     public void TestRepositoryCanHasContactWithPhones()
     {
-        var a = JsonConvert.DeserializeObject(@"[{'id': '00000000-9999-0000-0000-000000000000', 'name': 'João das neves', 'phones': [{}]}]").ToString();
+        var a = JsonConvert.DeserializeObject(@"[{'id': '00000000-9999-0000-0000-000000000000', 'name': 'João das neves', 'phones': [{
+            'id': '00000000-9999-0000-0000-000000000000',
+            'phone': 54516885,
+            'ddi': 55,
+            'type': 'fax'
+        }]}]").ToString();
         dynamic dynObj = JsonConvert.DeserializeObject(a);
 
         var jsonMock = new Moq.Mock<Archive.JsonReader>();
@@ -74,6 +79,7 @@ public class RepositoryTest
         List<Entity> list = repo.getAll();
 
         Assert.IsNotEmpty(list);
+
         var phones = list[0].Phones;
         Assert.AreEqual(false, phones.IsEmpty());
     }

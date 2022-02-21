@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AMyd6IHxd3ImdXoa5jrskP2WFIRaKYO7foHFxUK6cNyOO2EKEZMrs9dY8HXdEIp1+A6Gxxfu1NGERM3wfeb6sQ==",
+  "dgSpecHash": "AlfzwZsgxgKp4LyGuOJKV9OyBw5r3RrKYUTp6dBJLx3uBhXZS8ApgzbLez/XHZmSWcSXD92IrXkRKInrsnSFXg==",
   "success": true,
-  "projectFilePath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
+  "projectFilePath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Dojo/Contact.Domain/ContactDomain.csproj",
   "expectedPackageFiles": [
-    "/home/marcos/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512"
+    "/home/luan/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512"
   ],
   "logs": []
 }
