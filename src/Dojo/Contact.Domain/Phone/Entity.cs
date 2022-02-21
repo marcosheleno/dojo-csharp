@@ -1,17 +1,19 @@
+using System;
+
 namespace Contact.Domain.Phone
 {
     public class Entity : BaseClass
     {
-        private int _phone { get; set; }
-        private int _ddi { get; set; }
-        private string _type { get; set; }
+        public Int64 _phone { get; set; }
+        public int _ddi { get; set; }
+        public string _type { get; set; }
 
         public Entity()
         {
 
         }
 
-        public Entity(Guid id, int phone, int ddi, string type)
+        public Entity(Guid id, Int64 phone, int ddi, string type)
         {
             this.Id = id;
             _phone = phone;
@@ -19,7 +21,7 @@ namespace Contact.Domain.Phone
             _type = type;
         }
 
-        public int Phone
+        public Int64 Phone
         {
             get { return _phone; }
             set { _phone = value; }

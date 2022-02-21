@@ -31,7 +31,6 @@
 /home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/application.deps.json
 /home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/application.runtimeconfig.json
 /home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/application.dll
-/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/ref/application.dll
 /home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/application.pdb
 /home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
@@ -104,3 +103,17 @@ C:/GitHub/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Contact.Infrastr
 /home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Archive.pdb
 /home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/ContactDomain.pdb
 /home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Contact.Infrastructure.pdb
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/NUnit3.TestAdapter.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/NUnit3.TestAdapter.pdb
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/nunit.engine.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/nunit.engine.api.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/nunit.engine.core.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/testcentric.engine.metadata.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Archive.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Contact.Infrastructure.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/ContactDomain.dll
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Archive.pdb
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/ContactDomain.pdb
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/bin/Debug/net6.0/Contact.Infrastructure.pdb
+/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Api.Http.Application/obj/Debug/net6.0/refint/application.dll

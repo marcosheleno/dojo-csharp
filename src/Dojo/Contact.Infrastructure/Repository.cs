@@ -57,7 +57,6 @@ public class Repository : IRepository
         foreach (var groupItem in groups)
         {
             entity.addGroup(new Group.Entity(groupItem.ToString()));
-            System.Console.WriteLine(groupItem.ToString());
         }
     }
 
@@ -70,7 +69,12 @@ public class Repository : IRepository
 
         foreach (var phoneItem in phones)
         {
-            entity.addPhone(new Phone.Entity(new Guid(phoneItem.id.ToString()), int.Parse(phoneItem.phone.ToString()), int.Parse(phoneItem.ddi.ToString()), phoneItem.type.ToString()));
+            Guid guid = new Guid(phoneItem.id.ToString());
+            Int64 phone = Int64.Parse(phoneItem.phone.ToString());
+            int ddi = int.Parse(phoneItem.ddi.ToString());
+            string type = phoneItem.type.ToString();
+            System.Console.WriteLine();
+            entity.addPhone(new Phone.Entity(guid, phone, ddi, type));
         }
     }
 
