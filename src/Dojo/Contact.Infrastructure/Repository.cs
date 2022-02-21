@@ -20,16 +20,22 @@ public class Repository : IRepository
         // JsonReader = new JsonReader();
         JObject repoJson = JsonReader.read("");
 
+        if( repoJson.length == 0)
+        {
+            return list;
+        }
+
         foreach (JObject item in repoJson)
-            {
-                Guid id =  item.id;
-                string name = item.name;
+        {
+            Guid id =  item.id;
+            string name = item.name;
 
-                Entity contact = new Entity(id, name);
+            Entity contact = new Entity(id, name);
 
-                list.Add(contact);
-                
-            }
+            list.Add(contact);
+            
+        }
+        
         return list;
     }
 }
