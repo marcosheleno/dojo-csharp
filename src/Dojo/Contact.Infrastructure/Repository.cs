@@ -24,7 +24,7 @@ public class Repository : IRepository
     public List<Entity> getAll()
     {
         // JsonReader = new JsonReader();
-        var repoJson = JsonReader.read("");
+        var repoJson = JsonReader.read("contacts.json");
 
         List<Entity> list = new List<Entity>();
 
