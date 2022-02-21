@@ -1,41 +1,58 @@
-﻿using Contact.Domain;
+﻿using System.Text.RegularExpressions;
+using Contact.Domain;
+using Group = Contact.Domain.Group;
 using Contact.Domain.Contracts;
 using System.Collections.Generic;
-using Infrastructure.Persistance.Archive;
+using Archive = Infrastructure.Persistance.Archive;
+using System;
 
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+
 namespace Contact.Infrastructure;
 public class Repository : IRepository
 {
 
-    public JsonReader JsonReader { get; set; }
-    public Repository(JsonReader jsonReader)
+    public Archive.JsonReader JsonReader { get; set; }
+    public Repository(Archive.JsonReader jsonReader)
     {
         JsonReader = jsonReader;
     }
 
     public List<Entity> getAll()
     {
-        List<Entity> list = new List<Entity>();
         // JsonReader = new JsonReader();
-        JObject repoJson = JsonReader.read("");
+        var repoJson = JsonReader.read("");
 
-        if( repoJson.length == 0)
+        List<Entity> list = new List<Entity>();
+
+        if (repoJson.Count == 0)
         {
             return list;
         }
 
-        foreach (JObject item in repoJson)
+        foreach (var item in repoJson)
         {
-            Guid id =  item.id;
-            string name = item.name;
 
-            Entity contact = new Entity(id, name);
+            Entity entity = new Entity(new Guid(item.id.ToString()), item.name.ToString());
+            this.attachGroups(entity, item.groups);
 
-            list.Add(contact);
-            
+            list.Add(entity);
         }
-        
+
         return list;
+    }
+
+    private void attachGroups(Entity entity, dynamic groups)
+    {
+        if (groups == null)
+        {
+            return;
+        }
+
+        foreach (var groupItem in groups)
+        {
+            entity.addGroup(new Group.Entity(groupItem.ToString()));
+        }
     }
 }

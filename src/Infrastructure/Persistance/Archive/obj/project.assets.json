@@ -48,19 +48,19 @@
     ]
   },
   "packageFolders": {
-    "/home/luan/.nuget/packages/": {}
+    "/home/marcos/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj",
+      "projectUniqueName": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj",
       "projectName": "Archive",
-      "projectPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj",
-      "packagesPath": "/home/luan/.nuget/packages/",
-      "outputPath": "/home/luan/Documentos/IEBT/PROJETOS/PLATAFORMA/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/",
+      "projectPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Infrastructure/Persistance/Archive/Archive.csproj",
+      "packagesPath": "/home/marcos/.nuget/packages/",
+      "outputPath": "/home/marcos/Documents/IEBT/dojos/dojo-csharp/src/Infrastructure/Persistance/Archive/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/luan/.nuget/NuGet/NuGet.Config"
+        "/home/marcos/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -104,7 +104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }

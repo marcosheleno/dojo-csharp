@@ -15,4 +15,9 @@ public class Collection
     {
         this._groups.Add(entity);
     }
+
+    public bool IsEmpty()
+    {
+        return this._groups.Count == 0;
+    }
 }

@@ -8,18 +8,19 @@ namespace Contact.Domain;
 
 public class Entity : BaseClass
 {
-    public string Name {get; set;}
+    public string Name { get; set; }
 
-    public Email.Collection Emails {get; set;}
+    public Email.Collection Emails { get; set; }
 
-    public Group.Collection Groups {get; set;}
+    public Group.Collection Groups { get; set; }
 
-    public Phone.Collection Phones {get; set;}
+    public Phone.Collection Phones { get; set; }
 
     public Entity(Guid id, string name)
     {
         Id = id;
         Name = name;
+        Groups = new Group.Collection();
     }
 
     public void addEmail(Email.Entity email)

@@ -58,12 +58,13 @@ public class JsonReader
     //                     ]";
     // JObject jObject = JObject.Parse(JsonFile);
     // JObject Json = jObject;
-    public JsonReader(){
-        
+    public JsonReader()
+    {
+
     }
 
-    public virtual JObject read(string path)
+    public virtual dynamic read(string path)
     {
-        return new JObject();
+        return "";
     }
 }

@@ -1,8 +1,11 @@
+using Contact.Domain;
 using Contact.Infrastructure;
 using System;
 using Moq;
 using NUnit.Framework;
-using Infrastructure.Persistance.Archive;
+using System.Collections.Generic;
+using Archive = Infrastructure.Persistance.Archive;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace classes.tests;
@@ -12,11 +15,11 @@ public class RepositoryTest
     [Test]
     public void TestRepositoryCanHaveEmptyList()
     {
-        var jObjectMock = new Moq.Mock<JObject>();
-        jObjectMock.Setup(c => c.length()).Returns(0);
+        var a = JsonConvert.DeserializeObject(@"[]").ToString();
+        dynamic dynObj = JsonConvert.DeserializeObject(a);
 
-        var jsonMock = new Moq.Mock<JsonReader>();
-        jsonMock.Setup(c => c.read(It.IsAny<string>())).Returns(jObjectMock);
+        var jsonMock = new Moq.Mock<Archive.JsonReader>();
+        jsonMock.Setup(c => c.read(It.IsAny<string>())).Returns(dynObj);
 
         Repository repo = new Repository(jsonMock.Object);
 
@@ -26,21 +29,52 @@ public class RepositoryTest
     [Test]
     public void TestRepositoryCanHasContact()
     {
-        Guid idContact = Guid.NewGuid();
-        string name = "Joao das Neves";
-        Entity contact = new Entity(idContact, name);
+        var a = JsonConvert.DeserializeObject(@"[{'id': '00000000-9999-0000-0000-000000000000', 'name': 'João das neves'}]").ToString();
+        dynamic dynObj = JsonConvert.DeserializeObject(a);
 
-        JObject jObjectMock = new JObject
-        {
-            { "id", 10 },
-            { "name", "João das Neves" }
-        };
-
-       var jsonMock = new Moq.Mock<JsonReader>();
-        jsonMock.Setup(c => c.read(It.IsAny<string>())).Returns(jObjectMock);
+        var jsonMock = new Moq.Mock<Archive.JsonReader>();
+        jsonMock.Setup(c => c.read(It.IsAny<string>())).Returns(dynObj);
 
         Repository repo = new Repository(jsonMock.Object);
 
-        Assert.AreEqual(repo.getAll());
+
+        Assert.IsNotEmpty(repo.getAll());
+    }
+
+    [Test]
+    public void TestRepositoryCanHasContactWithGroups()
+    {
+        var a = JsonConvert.DeserializeObject(@"[{'id': '00000000-9999-0000-0000-000000000000', 'name': 'João das neves', 'groups': ['familia neves', 'chatos']}]").ToString();
+        dynamic dynObj = JsonConvert.DeserializeObject(a);
+
+        var jsonMock = new Moq.Mock<Archive.JsonReader>();
+        jsonMock.Setup(c => c.read(It.IsAny<string>())).Returns(dynObj);
+
+        Repository repo = new Repository(jsonMock.Object);
+        List<Entity> list = repo.getAll();
+
+        Assert.IsNotEmpty(list);
+
+        var groups = list[0].Groups;
+        Assert.AreEqual(false, groups.IsEmpty());
+
+
+    }
+
+    [Test]
+    public void TestRepositoryCanHasContactWithPhones()
+    {
+        var a = JsonConvert.DeserializeObject(@"[{'id': '00000000-9999-0000-0000-000000000000', 'name': 'João das neves', 'phones': [{}]}]").ToString();
+        dynamic dynObj = JsonConvert.DeserializeObject(a);
+
+        var jsonMock = new Moq.Mock<Archive.JsonReader>();
+        jsonMock.Setup(c => c.read(It.IsAny<string>())).Returns(dynObj);
+
+        Repository repo = new Repository(jsonMock.Object);
+        List<Entity> list = repo.getAll();
+
+        Assert.IsNotEmpty(list);
+        var phones = list[0].Phones;
+        Assert.AreEqual(false, phones.IsEmpty());
     }
 }
