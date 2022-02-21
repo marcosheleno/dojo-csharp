@@ -15,4 +15,9 @@ public class Collection
     {
         this._emails.Add(entity);
     }
+
+    public bool IsEmpty()
+    {
+        return this._emails.Count == 0;
+    }
 }

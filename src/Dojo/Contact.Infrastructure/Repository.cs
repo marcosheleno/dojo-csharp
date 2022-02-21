@@ -2,6 +2,7 @@
 using Contact.Domain;
 using Group = Contact.Domain.Group;
 using Phone = Contact.Domain.Phone;
+using Email = Contact.Domain.Email;
 using Contact.Domain.Contracts;
 using System.Collections.Generic;
 using Archive = Infrastructure.Persistance.Archive;
@@ -37,6 +38,8 @@ public class Repository : IRepository
 
             Entity entity = new Entity(new Guid(item.id.ToString()), item.name.ToString());
             this.attachGroups(entity, item.groups);
+            this.attachPhones(entity, item.phones);
+            this.attachEmails(entity, item.emails);
 
             list.Add(entity);
         }
@@ -66,7 +69,20 @@ public class Repository : IRepository
 
         foreach (var phoneItem in phones)
         {
-            entity.addPhone(new Phone.Entity(phoneItem.id.ToString(), phoneItem.phone.ToString(), phoneItem.ddi.ToString(), phoneItem.type.ToString()));
+            entity.addPhone(new Phone.Entity(new Guid(phoneItem.id.ToString()), int.Parse(phoneItem.phone.ToString()), int.Parse(phoneItem.ddi.ToString()), phoneItem.type.ToString()));
+        }
+    }
+
+    private void attachEmails(Entity entity, dynamic emails)
+    {
+        if (emails == null)
+        {
+            return;
+        }
+
+        foreach (var emailItem in emails)
+        {
+            entity.addEmail(new Email.Entity(new Guid(emailItem.id.ToString()), emailItem.email.ToString(), emailItem.type.ToString()));
         }
     }
 }

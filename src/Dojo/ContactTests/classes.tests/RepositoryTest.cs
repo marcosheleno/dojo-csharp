@@ -83,4 +83,26 @@ public class RepositoryTest
         var phones = list[0].Phones;
         Assert.AreEqual(false, phones.IsEmpty());
     }
+
+    [Test]
+    public void TestRepositoryCanHasContactWithEmails()
+    {
+        var a = JsonConvert.DeserializeObject(@"[{'id': '00000000-9999-0000-0000-000000000000', 'name': 'João das neves', 'emails': [{
+            'id': '00000000-9999-1111-0000-000000000000',
+            'email': 'abominavel.homem.neves@familia.snow',
+            'type': 'comercial'
+        }]}]").ToString();
+        dynamic dynObj = JsonConvert.DeserializeObject(a);
+
+        var jsonMock = new Moq.Mock<Archive.JsonReader>();
+        jsonMock.Setup(c => c.read(It.IsAny<string>())).Returns(dynObj);
+
+        Repository repo = new Repository(jsonMock.Object);
+        List<Entity> list = repo.getAll();
+
+        Assert.IsNotEmpty(list);
+
+        var emails = list[0].Emails;
+        Assert.AreEqual(false, emails.IsEmpty());
+    }
 }

@@ -16,7 +16,7 @@ public class Collection
         this._phones.Add(entity);
     }
 
-     public bool IsEmpty()
+    public bool IsEmpty()
     {
         return this._phones.Count == 0;
     }

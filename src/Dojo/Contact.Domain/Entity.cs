@@ -22,7 +22,7 @@ public class Entity : BaseClass
         Name = name;
         Groups = new Group.Collection();
         Phones = new Phone.Collection();
-
+        Emails = new Email.Collection();
     }
 
     public void addEmail(Email.Entity email)
