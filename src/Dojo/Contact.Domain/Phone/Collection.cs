@@ -4,20 +4,20 @@ namespace Contact.Domain.Phone;
 
 public class Collection
 {
-    private ObjectModel.Collection<Entity> _phones;
+    public ObjectModel.Collection<Entity> Phones {get;}
 
     public Collection()
     {
-        this._phones = new ObjectModel.Collection<Entity>();
+        this.Phones = new ObjectModel.Collection<Entity>();
     }
 
     public virtual void Add(Entity entity)
     {
-        this._phones.Add(entity);
+        this.Phones.Add(entity);
     }
 
     public bool IsEmpty()
     {
-        return this._phones.Count == 0;
+        return this.Phones.Count == 0;
     }
 }

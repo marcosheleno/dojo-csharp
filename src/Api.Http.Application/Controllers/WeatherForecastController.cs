@@ -22,7 +22,7 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    public List<ContactDomain.Entity> Get()
     {
         /*
             objeto JsonReader
@@ -30,14 +30,9 @@ public class WeatherForecastController : ControllerBase
             objeto ReadService
         */
         Infra.JsonReader jsonReader = new Infra.JsonReader();
-        ContactInfra.Repository contactRepository = new ContactInfra.Repository();
+        ContactInfra.Repository contactRepository = new ContactInfra.Repository(jsonReader);
+        ContactDomain.ReadService readService = new ContactDomain.ReadService(contactRepository);
 
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        {
-            Date = DateTime.Now.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        })
-        .ToArray();
+        return readService.getAll();
     }
 }

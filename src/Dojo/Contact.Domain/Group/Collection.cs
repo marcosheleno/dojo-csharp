@@ -4,20 +4,20 @@ namespace Contact.Domain.Group;
 
 public class Collection
 {
-    private ObjectModel.Collection<Entity> _groups;
+    public ObjectModel.Collection<Entity> Groups {get;}
 
     public Collection()
     {
-        this._groups = new ObjectModel.Collection<Entity>();
+        this.Groups = new ObjectModel.Collection<Entity>();
     }
 
     public virtual void Add(Entity entity)
     {
-        this._groups.Add(entity);
+        this.Groups.Add(entity);
     }
 
     public bool IsEmpty()
     {
-        return this._groups.Count == 0;
+        return this.Groups.Count == 0;
     }
 }

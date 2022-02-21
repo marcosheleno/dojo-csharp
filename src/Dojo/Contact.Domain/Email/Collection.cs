@@ -4,20 +4,20 @@ namespace Contact.Domain.Email;
 
 public class Collection
 {
-    private ObjectModel.Collection<Entity> _emails;
+    public ObjectModel.Collection<Entity> Emails {get;} 
 
     public Collection()
     {
-        this._emails = new ObjectModel.Collection<Entity>();
+        this.Emails = new ObjectModel.Collection<Entity>();
     }
 
     public virtual void Add(Entity entity)
     {
-        this._emails.Add(entity);
+        this.Emails.Add(entity);
     }
 
     public bool IsEmpty()
     {
-        return this._emails.Count == 0;
+        return this.Emails.Count == 0;
     }
 }

@@ -57,6 +57,7 @@ public class Repository : IRepository
         foreach (var groupItem in groups)
         {
             entity.addGroup(new Group.Entity(groupItem.ToString()));
+            System.Console.WriteLine(groupItem.ToString());
         }
     }
 

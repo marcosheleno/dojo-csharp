@@ -13,7 +13,7 @@ public class JsonReader
 
     public virtual dynamic read(string path)
     {
-        using (StreamReader r = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + path))
+        using (StreamReader r = new StreamReader("../" + path))
         {
             string json = r.ReadToEnd();
             var a = JsonConvert.DeserializeObject(json).ToString();
