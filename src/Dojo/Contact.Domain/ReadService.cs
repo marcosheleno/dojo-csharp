@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 using Contact.Domain.Contracts;
 namespace Contact.Domain
 { 
@@ -10,7 +12,7 @@ namespace Contact.Domain
       _repository = repository;
     }
 
-    public Entity[] getAll()
+    public List<Entity> getAll()
     {
       return _repository.getAll();
     }

@@ -60,7 +60,6 @@ public class JsonReader
     // JObject Json = jObject;
     public JsonReader(){
         
-        
     }
 
     public virtual JObject read(string path)

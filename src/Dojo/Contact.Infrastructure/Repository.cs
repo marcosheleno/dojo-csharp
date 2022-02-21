@@ -1,5 +1,6 @@
 ﻿using Contact.Domain;
 using Contact.Domain.Contracts;
+using System.Collections.Generic;
 using Infrastructure.Persistance.Archive;
 
 using Newtonsoft.Json.Linq;
@@ -13,28 +14,22 @@ public class Repository : IRepository
         JsonReader = jsonReader;
     }
 
-    public Entity[] getAll()
+    public List<Entity> getAll()
     {
+        List<Entity> list = new List<Entity>();
         // JsonReader = new JsonReader();
         JObject repoJson = JsonReader.read("");
 
-        // Entity[] contacts;
-        // for (int i = 0; i < repoJson.Lenght; i++)
-        //     {
-        //         Guid id =  Guid.NewGuid();
-        //         Entity contact = Entity(id, repoJson[i].name);
-        //         if(repoJson[i].email){
-        //             contact.addEmail(repoJson[i].email);   
-        //         }
-        //         if(repoJson[i].group){
-        //             contact.addEmail(repoJson[i].group);   
-        //         }
-        //         if(repoJson[i].phones){
-        //             contact.addEmail(repoJson[i].phones);   
-        //         }
-        //         contacts[i] = contact;
-        //     }
-        Entity[] myArray = new Entity[]{};
-        return myArray;
+        foreach (JObject item in repoJson)
+            {
+                Guid id =  item.id;
+                string name = item.name;
+
+                Entity contact = new Entity(id, name);
+
+                list.Add(contact);
+                
+            }
+        return list;
     }
 }
