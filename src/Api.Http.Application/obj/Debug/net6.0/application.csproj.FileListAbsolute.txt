@@ -68,7 +68,6 @@ C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.Gene
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.AssemblyInfoInputs.cache
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.AssemblyInfo.cs
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.csproj.CoreCompileInputs.cache
-C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.MvcApplicationPartsAssemblyInfo.cs
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.MvcApplicationPartsAssemblyInfo.cache
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\staticwebassets.build.json
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\staticwebassets.development.json
@@ -79,3 +78,16 @@ C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\ref\application.
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.pdb
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\application.genruntimeconfig.cache
 C:\GitHub\dojo-csharp\src\Api.Http.Application\obj\Debug\net6.0\refint\application.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\nunit.engine.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\nunit.engine.api.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\nunit.engine.core.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\Archive.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\Contact.Infrastructure.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\ContactDomain.dll
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\Archive.pdb
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\ContactDomain.pdb
+C:\GitHub\dojo-csharp\src\Api.Http.Application\bin\Debug\net6.0\Contact.Infrastructure.pdb

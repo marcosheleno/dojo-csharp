@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using Infra = Infrastructure.Persistance.Archive;
+using ContactInfra = Contact.Infrastructure;
+using ContactDomain = Contact.Domain;
 
 namespace application.Controllers;
 
@@ -21,6 +24,14 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
+        /*
+            objeto JsonReader
+            objeto Repository
+            objeto ReadService
+        */
+        Infra.JsonReader jsonReader = new Infra.JsonReader();
+        ContactInfra.Repository contactRepository = new ContactInfra.Repository();
+
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateTime.Now.AddDays(index),
