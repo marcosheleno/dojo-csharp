@@ -1,8 +1,7 @@
-using System.Collections.Generic;
 
 using Contact.Domain.Contracts;
 namespace Contact.Domain
-{ 
+{
   public class ReadService : IReadServices
   {
 
@@ -12,7 +11,7 @@ namespace Contact.Domain
       _repository = repository;
     }
 
-    public List<Entity> getAll()
+    public virtual List<Entity> getAll()
     {
       return _repository.getAll();
     }
