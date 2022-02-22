@@ -1,4 +1,7 @@
 using Lamar.Microsoft.DependencyInjection;
+using Infra = Infrastructure.Persistance.Archive;
+using ContactInfra = Contact.Infrastructure;
+using ContactDomain = Contact.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -8,9 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseLamar((context, registry) =>
 {
     // register services using Lamar
-    registry.For<IJsonReader>().Use<JsonReader>();
-    registry.For<IRepository>().Use<Repository>();
-    registry.For<IReadServices>().Use<ReadService>();
+    registry.For<Infra.IJsonReader>().Use<Infra.JsonReader>();
+    registry.For<ContactDomain.Contracts.IRepository>().Use<ContactInfra.Repository>();
+    registry.For<ContactDomain.Contracts.IReadServices>().Use<ContactDomain.ReadService>();
 
     // registry.IncludeRegistry<MyRegistry>();
 

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes.tests", "Dojo\ChatT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.Infrastructure", "Dojo\Contact.Infrastructure\Contact.Infrastructure.csproj", "{5B9C8601-E8C5-4A3C-B4EE-D2E88ABC4CEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Http.Tests", "Api.Http.Tests\Api.Http.Tests.csproj", "{7B194948-1AF5-45A3-9ACF-B9E29D3E367A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{5B9C8601-E8C5-4A3C-B4EE-D2E88ABC4CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B9C8601-E8C5-4A3C-B4EE-D2E88ABC4CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B9C8601-E8C5-4A3C-B4EE-D2E88ABC4CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B194948-1AF5-45A3-9ACF-B9E29D3E367A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B194948-1AF5-45A3-9ACF-B9E29D3E367A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B194948-1AF5-45A3-9ACF-B9E29D3E367A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B194948-1AF5-45A3-9ACF-B9E29D3E367A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{38E167EB-08EE-49B8-BCA1-77418AA1B57F} = {1FDB097C-2559-49EE-AA08-654B16AD7C37}

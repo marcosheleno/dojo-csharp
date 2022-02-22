@@ -1,0 +1,6 @@
+C:\GitHub\dojo-csharp\src\Api.Http.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\GitHub\dojo-csharp\src\Api.Http.Tests\obj\Debug\net6.0\Api.Http.Tests.csproj.AssemblyReference.cache
+C:\GitHub\dojo-csharp\src\Api.Http.Tests\obj\Debug\net6.0\Api.Http.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\dojo-csharp\src\Api.Http.Tests\obj\Debug\net6.0\Api.Http.Tests.AssemblyInfoInputs.cache
+C:\GitHub\dojo-csharp\src\Api.Http.Tests\obj\Debug\net6.0\Api.Http.Tests.AssemblyInfo.cs
+C:\GitHub\dojo-csharp\src\Api.Http.Tests\obj\Debug\net6.0\Api.Http.Tests.csproj.CoreCompileInputs.cache

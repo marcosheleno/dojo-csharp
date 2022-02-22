@@ -10,6 +10,7 @@ using Newtonsoft.Json.Linq;
 
 namespace classes.tests;
 
+[TestFixture]
 public class RepositoryTest
 {
     [Test]
