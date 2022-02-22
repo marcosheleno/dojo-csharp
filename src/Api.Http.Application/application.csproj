@@ -1,19 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+    <PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="8.0.1"/>
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\Persistance\Archive\Archive.csproj" />
-    <ProjectReference Include="..\Dojo\Contact.Domain\ContactDomain.csproj" />
-    <ProjectReference Include="..\Dojo\Contact.Infrastructure\Contact.Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\Persistance\Archive\Archive.csproj"/>
+    <ProjectReference Include="..\Dojo\Contact.Domain\ContactDomain.csproj"/>
+    <ProjectReference Include="..\Dojo\Contact.Infrastructure\Contact.Infrastructure.csproj"/>
   </ItemGroup>
-
 </Project>
