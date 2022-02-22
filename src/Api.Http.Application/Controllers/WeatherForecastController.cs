@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Infra = Infrastructure.Persistance.Archive;
-using ContactInfra = Contact.Infrastructure;
 using ContactDomain = Contact.Domain;
 
 namespace application.Controllers;
@@ -13,21 +11,16 @@ public class WeatherForecastController : ControllerBase
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
+    private readonly ContactDomain.Contracts.IReadServices _readService;
 
-    private readonly ILogger<WeatherForecastController> _logger;
-
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public WeatherForecastController(ContactDomain.Contracts.IReadServices readService)
     {
-        _logger = logger;
+        _readService = readService;
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
     public List<ContactDomain.Entity> Get()
     {
-        Infra.JsonReader jsonReader = new Infra.JsonReader();
-        ContactInfra.Repository contactRepository = new ContactInfra.Repository(jsonReader);
-        ContactDomain.ReadService readService = new ContactDomain.ReadService(contactRepository);
-
-        return readService.getAll();
+        return _readService.getAll();
     }
 }

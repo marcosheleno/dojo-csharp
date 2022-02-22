@@ -2,7 +2,7 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 namespace Infrastructure.Persistance.Archive;
 
-public class JsonReader
+public class JsonReader : IJsonReader
 {
     public JObject Json { get; set; }
 

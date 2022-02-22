@@ -15,8 +15,8 @@ namespace Contact.Infrastructure;
 public class Repository : IRepository
 {
 
-    public Archive.JsonReader JsonReader { get; set; }
-    public Repository(Archive.JsonReader jsonReader)
+    public Archive.IJsonReader JsonReader { get; set; }
+    public Repository(Archive.IJsonReader jsonReader)
     {
         JsonReader = jsonReader;
     }

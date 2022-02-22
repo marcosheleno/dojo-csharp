@@ -5,7 +5,10 @@ builder.Host.UseLamar((context, registry) =>
 {
     // register services using Lamar
     registry.For<IJsonReader>().Use<JsonReader>();
-    registry.IncludeRegistry<MyRegistry>();
+    registry.For<IRepository>().Use<Repository>();
+    registry.For<IReadServices>().Use<ReadService>();
+
+    //registry.IncludeRegistry<MyRegistry>();
 
     // add the controllers
     registry.AddControllers();

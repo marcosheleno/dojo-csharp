@@ -23,7 +23,7 @@ public class ContactTests
         readServiceMock.Setup(c => c.getAll()).Returns(0);
         ContactDomain.ReadService readService = readServiceMock.Object;
 
-        Controller.WeatherForecastController contactController = new Controller.WeatherForecastController();
+        Controller.WeatherForecastController contactController = new Controller.WeatherForecastController(readService);
         
         Assert.IsEmpty(contactController.Get());
     }
