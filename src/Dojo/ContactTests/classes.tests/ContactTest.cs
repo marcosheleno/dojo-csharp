@@ -17,7 +17,7 @@ public class ContactTest
         Guid idContact = Guid.NewGuid();
         string name = "Joao das Neves";
 
-
+        //
         Entity contact = new Entity(idContact, name);
 
         Assert.AreEqual(idContact, contact.Id);
