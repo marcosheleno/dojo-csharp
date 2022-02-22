@@ -17,12 +17,11 @@ public class ContactTests
         var jsonReaderMock = new Moq.Mock<Infra.JsonReader>();
         Infra.JsonReader jsonReader = jsonReaderMock.Object;
 
-        var contactRepositoryMock = new Moq.Mock<ContactInfra.Repository>();
-        contactRepositoryMock.Setup(c => c.Add(jsonReaderMock));
+        var contactRepositoryMock = new Moq.Mock<ContactInfra.Repository>(jsonReaderMock);
         ContactInfra.Repository contactRepository = contactRepositoryMock.Object;
 
-        var readServiceMock = new Moq.Mock<ContactDomain.ReadService>();
-        readServiceMock.Setup(c => c.Add(contactRepositoryMock));
+        var readServiceMock = new Moq.Mock<ContactDomain.ReadService>(contactRepositoryMock);
+        readServiceMock.Setup(c => c.getAll());
         ContactDomain.ReadService readService = readServiceMock.Object;
 
         readServiceMock.getAll();
