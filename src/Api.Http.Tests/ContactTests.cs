@@ -19,22 +19,14 @@ public class ContactTests
     [Test]
     public void ControllerTestCanHaveEmptyList()
     {
-        var a = JsonConvert.DeserializeObject(@"[]").ToString();
-        dynamic dynObj = JsonConvert.DeserializeObject(a);
+        List<ContactDomain.Entity> list = new List<ContactDomain.Entity>();
 
-        var jsonReaderMock = new Moq.Mock<Infra.JsonReader>();
-        jsonReaderMock.Setup(c => c.read(It.IsAny<string>())).Returns(dynObj);
+        var readServiceMock = new Moq.Mock<ContactDomain.Contracts.IReadServices>();
+        readServiceMock.Setup(c => c.getAll()).Returns(list);
 
-        var contactRepositoryMock = new Moq.Mock<ContactInfra.Repository>(jsonReaderMock.Object);
-        ContactInfra.Repository contactRepository = contactRepositoryMock.Object;
-
-        var readServiceMock = new Moq.Mock<ContactDomain.ReadService>(contactRepository);
-        readServiceMock.Setup(c => c.getAll()).Returns(new List<ContactDomain.Entity>());
-        ContactDomain.ReadService readService = readServiceMock.Object;
-
-        Controller.WeatherForecastController contactController = new Controller.WeatherForecastController(readService);
+        Controller.WeatherForecastController contactController = new Controller.WeatherForecastController(readServiceMock.Object);
         
-        Assert.IsEmpty(contactController.Get());
+        Assert.AreEqual(contactController.Get(), list);
     }
 
     [Test]
@@ -42,14 +34,12 @@ public class ContactTests
     {
         List<ContactDomain.Entity> list = new List<ContactDomain.Entity>();
         list.Add(new ContactDomain.Entity(Guid.NewGuid(), "João das Neves"));
-        var contactRepositoryMock = new Moq.Mock<ContactDomain.Contracts.IRepository>();
 
-        var readServiceMock = new Moq.Mock<ContactDomain.ReadService>(contactRepositoryMock.Object);
+        var readServiceMock = new Moq.Mock<ContactDomain.Contracts.IReadServices>();
         readServiceMock.Setup(c => c.getAll()).Returns(list);
         
         Controller.WeatherForecastController contactController = new Controller.WeatherForecastController(readServiceMock.Object);
         
         Assert.AreEqual(contactController.Get(), list);
     }
-
 }
