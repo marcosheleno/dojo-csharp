@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\dojo-csharp\\src\\Infrastructure\\Persistance\\Archive\\Archive.csproj": {}
+    "C:\\GitHub\\dojo-csharp\\src\\Api.Http.Tests\\Api.Http.Tests.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\dojo-csharp\\src\\Infrastructure\\Persistance\\Archive\\Archive.csproj": {
+    "C:\\GitHub\\dojo-csharp\\src\\Api.Http.Tests\\Api.Http.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\dojo-csharp\\src\\Infrastructure\\Persistance\\Archive\\Archive.csproj",
-        "projectName": "Archive",
-        "projectPath": "C:\\GitHub\\dojo-csharp\\src\\Infrastructure\\Persistance\\Archive\\Archive.csproj",
+        "projectUniqueName": "C:\\GitHub\\dojo-csharp\\src\\Api.Http.Tests\\Api.Http.Tests.csproj",
+        "projectName": "Api.Http.Tests",
+        "projectPath": "C:\\GitHub\\dojo-csharp\\src\\Api.Http.Tests\\Api.Http.Tests.csproj",
         "packagesPath": "C:\\Users\\Jean Santos\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\dojo-csharp\\src\\Infrastructure\\Persistance\\Archive\\obj\\",
+        "outputPath": "C:\\GitHub\\dojo-csharp\\src\\Api.Http.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,9 +44,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Newtonsoft.Json": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

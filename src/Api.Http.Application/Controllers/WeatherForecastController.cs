@@ -24,11 +24,6 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public List<ContactDomain.Entity> Get()
     {
-        /*
-            objeto JsonReader
-            objeto Repository
-            objeto ReadService
-        */
         Infra.JsonReader jsonReader = new Infra.JsonReader();
         ContactInfra.Repository contactRepository = new ContactInfra.Repository(jsonReader);
         ContactDomain.ReadService readService = new ContactDomain.ReadService(contactRepository);
