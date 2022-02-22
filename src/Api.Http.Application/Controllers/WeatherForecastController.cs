@@ -29,6 +29,5 @@ public class WeatherForecastController : ControllerBase
         ContactDomain.ReadService readService = new ContactDomain.ReadService(contactRepository);
 
         return readService.getAll();
-        
     }
 }
