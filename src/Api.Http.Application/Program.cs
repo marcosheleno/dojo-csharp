@@ -1,6 +1,10 @@
-var builder = WebApplication.CreateBuilder(args);
+using Lamar.Microsoft.DependencyInjection;
 
+var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
+
+
+
 builder.Host.UseLamar((context, registry) =>
 {
     // register services using Lamar
@@ -8,7 +12,7 @@ builder.Host.UseLamar((context, registry) =>
     registry.For<IRepository>().Use<Repository>();
     registry.For<IReadServices>().Use<ReadService>();
 
-    //registry.IncludeRegistry<MyRegistry>();
+    // registry.IncludeRegistry<MyRegistry>();
 
     // add the controllers
     registry.AddControllers();

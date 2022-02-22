@@ -7,6 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
     <PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="8.0.1"/>
+    <PackageReference Include="Lamar" Version="8.0.1"/>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Persistance\Archive\Archive.csproj"/>
